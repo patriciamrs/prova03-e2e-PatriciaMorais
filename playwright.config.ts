@@ -9,7 +9,7 @@ const config: PlaywrightTestConfig = {
     trace: 'on',
     locale: 'pt-BR',
 
-    headless: false,
+    headless: true,
 
     launchOptions: {
       slowMo: 100
